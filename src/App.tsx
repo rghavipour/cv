@@ -228,7 +228,7 @@ function App() {
                 <span>Professional Working Proficiency</span>
               </div>
             </div>
-          </div>
+          </section>
         </main>
       </div>
     </div>
