@@ -34,7 +34,7 @@ function App() {
               </div>
               <div className="flex items-center gap-2">
                 <Linkedin className="w-5 h-5" />
-                <a href="https://linkedin.com/in/reza-ghavipor-56b350239" className="hover:underline">linkedin.com/in/reza-ghavipor-56b350239</a>
+                <a href="https://www.linkedin.com/in/reza-ghavipour-56b350239/" className="hover:underline">Linkedin</a>
               </div>
             </div>
           </div>
