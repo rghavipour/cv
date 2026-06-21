@@ -1,5 +1,7 @@
 import React from 'react';
 import { Mail, Linkedin, MapPin, Phone, User, Briefcase, GraduationCap, Code, FolderOpen, Award, Globe } from 'lucide-react';
+// نکته مهم: عکس را ایمپورت می‌کنیم تا در بیلد نهایی آدرس‌دهی خراب نشود
+import profileImg from '../public/profile.jpeg'; 
 
 function App() {
   return (
@@ -10,7 +12,7 @@ function App() {
         <header className="flex items-center gap-8 mb-12">
           <div className="w-48 h-48 rounded-full border-4 border-black overflow-hidden shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex-shrink-0">
             <img 
-              src="../public/profile.jpeg"
+              src={profileImg} 
               alt="Profile"
               className="w-full h-full object-cover object-top"
             />
