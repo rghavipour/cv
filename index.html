@@ -2,13 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Reza`s CV</title>
-    <script type="module" crossorigin src="/cv/assets/index-BLPYmo7z.js"></script>
-    <link rel="stylesheet" crossorigin href="/cv/assets/index-XnY1gDDs.css">
+    <title>Reza Ghavipour | Backend Developer &amp; SRE Enthusiast</title>
+    <meta name="description" content="Resume &amp; CV of Reza Ghavipour - Backend Developer &amp; SRE Enthusiast" />
+    <meta name="theme-color" content="#12131a" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+    <script type="module" crossorigin src="./assets/index-B5EASBFF.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BaQ9tHNO.css">
   </head>
-  <body>
+  <body class="transition-colors duration-200 antialiased">
     <div id="root"></div>
   </body>
 </html>
